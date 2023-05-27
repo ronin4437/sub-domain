@@ -6,3 +6,6 @@ Subdomains are also used by organizations that wish to assign a unique name to a
 
 There are some widely recognized subdomains such as WWW and FTP. This allows for a structure where the domain contains administrative directories and files including the FTP directories and webpages. The FTP subdomain could contain logs and the web page directories, while the WWW subdomain contains the directories for the webpages. Independent authentication for each domain provides access control over the various levels of the domain. 
 
+> sudo pip3 install -r requirements.txt
+
+> python3 subdomainbrute.py
