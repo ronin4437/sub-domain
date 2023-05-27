@@ -6,4 +6,4 @@
 
 ```sudo pip3 install -r requirements.txt```
 
-```python3 subdomainbrute.py```
+```python3 requirements.txt```
