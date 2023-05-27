@@ -5,7 +5,6 @@ import requests
 import time
 import socket
 
-#SubRec0n v1.0 by c0deninja
 
 banner = """
 ███████ ██    ██ ██████        ██████   ██████  ███    ███  █████  ██ ███    ██ 
@@ -60,7 +59,7 @@ def ipadd(subdomain):
         subdomain = subdomain.replace("https://", "")
     return socket.gethostbyname(subdomain)
 
-# probing subdomains
+# subdomains
 for domains in subdomains:
     try:
         domains = domains.strip()
