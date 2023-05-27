@@ -4,6 +4,6 @@
 
 - Subdomains are also used by organizations that wish to assign a unique name to a particular department, function, or service related to the organization. For example, a university might assign "cs" to the computer science department, such that a number of hosts could be used inside that subdomain, such as www.cs.example.edu.
 
-> sudo pip3 install -r requirements.txt
+```sudo pip3 install -r requirements.txt
 
-> python3 subdomainbrute.py
+```python3 subdomainbrute.py
